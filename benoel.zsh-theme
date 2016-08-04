@@ -10,7 +10,7 @@ PROMPT='\
 %{$fg[yellow]%}%n%{$reset_color%}\
 %{$fg[white]%}@%{$reset_color%}\
 %{$fg[green]%}%M%{$reset_color%}\
-%{$fg[white]%}:%{$reset_color%}\
+%{$fg[white]%} %{$reset_color%}\
 %{$fg[cyan]%}%~%{$reset_color%}\
 $(git_prompt_info)\
 ${return_code}\
